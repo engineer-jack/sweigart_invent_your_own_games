@@ -130,8 +130,7 @@ def obtenerJugadaComputadora(tablero, letraComputadora):
     return elegirAzarDeLista(tablero, [2, 4, 6, 8])
 
 def tableroCompleto(tablero):
-    # Devuelve True si cada espacio del tablero fue ocupado, caso contrario devuelfe False.
-    # Return True if every space on the tablero has been taken. Otherwise return False.
+    # Devuelve True si cada espacio del tablero fue ocupado, caso contrario devuele False.
     for i in range(1, 10):
         if hayEspacioLibre(tablero, i):
             return False
