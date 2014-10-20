@@ -1,4 +1,4 @@
-# Tic Tac Toe
+# Ta Te Ti
 
 import random
 
@@ -50,9 +50,9 @@ def hacerJugada(tablero, letra, jugada):
 def esGanador(ta, le):
     # Dado un tablero y la letra de un jugador, devuelve True (verdadero) si el mismo ha ganado.
     # Utilizamos reemplazamos tablero por ta y letra por le para no escribir tanto.
-    return ((ta[7] == le and ta[8] == le and ta[9] == le) or # horizontal arriba
+    return ((ta[7] == le and ta[8] == le and ta[9] == le) or # horizontal superior
     (ta[4] == le and ta[5] == le and ta[6] == le) or # horizontal medio
-    (ta[1] == le and ta[2] == le and ta[3] == le) or # horizontal abajo
+    (ta[1] == le and ta[2] == le and ta[3] == le) or # horizontal inferior
     (ta[7] == le and ta[4] == le and ta[1] == le) or # vertical izquierda
     (ta[8] == le and ta[5] == le and ta[2] == le) or # vertical medio
     (ta[9] == le and ta[6] == le and ta[3] == le) or # vertical derecha
